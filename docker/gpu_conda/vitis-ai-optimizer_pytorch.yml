@@ -1,0 +1,11 @@
+name: vitis-ai-optimizer_pytorch
+
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+
+dependencies:
+  - python=3.6
+  - vai_optimizer_pytorch_gpu

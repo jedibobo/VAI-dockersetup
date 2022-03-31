@@ -1,0 +1,9 @@
+name: vitis-ai-optimizer_tensorflow
+
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+dependencies:
+  - python=3.6
+  - vai_optimizer_tensorflow_gpu

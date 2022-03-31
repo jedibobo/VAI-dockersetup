@@ -1,0 +1,24 @@
+name: vitis-ai-lstm
+
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+
+dependencies:
+  - python=3.6
+  - dctc_lstm
+  - tf_nndct
+  - pytorch_nndct_lstm
+  - pydot
+  - pyyaml
+  - jupyter
+  - ipywidgets
+  - dill
+  - progressbar2
+  - pytest
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - pillow
