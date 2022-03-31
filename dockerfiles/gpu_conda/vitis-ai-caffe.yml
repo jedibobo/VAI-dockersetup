@@ -1,0 +1,13 @@
+name: vitis-ai-caffe
+
+channels:
+  - https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - defaults
+
+dependencies:
+  - python=3.6
+  - caffe_decent_gpu
+  - vaic
+  - vart
+  - rt-engine

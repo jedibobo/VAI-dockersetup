@@ -1,0 +1,12 @@
+name: vitis-ai-tensorflow2
+
+channels:
+  - https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - defaults
+
+dependencies:
+  - python=3.7
+  - vaic
+  - vart
+  - rt-engine
